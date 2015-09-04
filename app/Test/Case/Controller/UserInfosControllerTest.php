@@ -36,6 +36,7 @@ class UserInfosControllerTest extends ControllerTestCase {
  */
 	public function testShow() {
 		$this->testAction('/user_infos/show');
+		echo $this->view;
 
 	}
 
