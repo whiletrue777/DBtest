@@ -3,6 +3,7 @@ App::uses('AppController', 'Controller');
 App::uses('Sanitize', 'Utility');
 
 class UserInfosController extends AppController {
+
 	    // コントローラー名
     public $name = 'UserInfo';
     // モデルを指定しない

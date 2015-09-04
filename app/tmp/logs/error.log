@@ -1,1 +1,125 @@
 2015-09-04 07:35:42 Warning: Test warning
+2015-09-04 08:14:41 Error: [UnexpectedValueException] Referenced fixture class UserInfos (Test/Fixture/UserInfosFixture.php) not found
+Stack Trace:
+#0 /var/www/cake/lib/Cake/TestSuite/Fixture/CakeFixtureManager.php(77): CakeFixtureManager->_loadFixtures(Array)
+#1 /var/www/cake/lib/Cake/TestSuite/CakeTestRunner.php(57): CakeFixtureManager->fixturize(Object(UserInfosControllerTest))
+#2 /var/www/cake/lib/Cake/TestSuite/CakeTestSuiteCommand.php(98): CakeTestRunner->doRun(Object(PHPUnit_Framework_TestSuite), Array)
+#3 /var/www/cake/lib/Cake/TestSuite/CakeTestSuiteDispatcher.php(259): CakeTestSuiteCommand->run(Array)
+#4 /var/www/cake/lib/Cake/TestSuite/CakeTestSuiteDispatcher.php(96): CakeTestSuiteDispatcher->_runTestCase()
+#5 /var/www/cake/lib/Cake/TestSuite/CakeTestSuiteDispatcher.php(113): CakeTestSuiteDispatcher->dispatch()
+#6 /var/www/cake/app/webroot/test.php(108): CakeTestSuiteDispatcher::run()
+#7 {main}
+2015-09-04 08:15:43 Error: [UnexpectedValueException] Referenced fixture class UserInfos (Test/Fixture/UserInfosFixture.php) not found
+Stack Trace:
+#0 /var/www/cake/lib/Cake/TestSuite/Fixture/CakeFixtureManager.php(77): CakeFixtureManager->_loadFixtures(Array)
+#1 /var/www/cake/lib/Cake/TestSuite/CakeTestRunner.php(57): CakeFixtureManager->fixturize(Object(UserInfosControllerTest))
+#2 /var/www/cake/lib/Cake/TestSuite/CakeTestSuiteCommand.php(98): CakeTestRunner->doRun(Object(PHPUnit_Framework_TestSuite), Array)
+#3 /var/www/cake/lib/Cake/TestSuite/CakeTestSuiteDispatcher.php(259): CakeTestSuiteCommand->run(Array)
+#4 /var/www/cake/lib/Cake/TestSuite/CakeTestSuiteDispatcher.php(96): CakeTestSuiteDispatcher->_runTestCase()
+#5 /var/www/cake/lib/Cake/TestSuite/CakeTestSuiteDispatcher.php(113): CakeTestSuiteDispatcher->dispatch()
+#6 /var/www/cake/app/webroot/test.php(108): CakeTestSuiteDispatcher::run()
+#7 {main}
+2015-09-04 08:15:47 Error: [UnexpectedValueException] Referenced fixture class UserInfos (Test/Fixture/UserInfosFixture.php) not found
+Stack Trace:
+#0 /var/www/cake/lib/Cake/TestSuite/Fixture/CakeFixtureManager.php(77): CakeFixtureManager->_loadFixtures(Array)
+#1 /var/www/cake/lib/Cake/TestSuite/CakeTestRunner.php(57): CakeFixtureManager->fixturize(Object(UserInfosControllerTest))
+#2 /var/www/cake/lib/Cake/TestSuite/CakeTestSuiteCommand.php(98): CakeTestRunner->doRun(Object(PHPUnit_Framework_TestSuite), Array)
+#3 /var/www/cake/lib/Cake/TestSuite/CakeTestSuiteDispatcher.php(259): CakeTestSuiteCommand->run(Array)
+#4 /var/www/cake/lib/Cake/TestSuite/CakeTestSuiteDispatcher.php(96): CakeTestSuiteDispatcher->_runTestCase()
+#5 /var/www/cake/lib/Cake/TestSuite/CakeTestSuiteDispatcher.php(113): CakeTestSuiteDispatcher->dispatch()
+#6 /var/www/cake/app/webroot/test.php(108): CakeTestSuiteDispatcher::run()
+#7 {main}
+2015-09-04 08:16:16 Error: [UnexpectedValueException] Referenced fixture class UserInfos (Test/Fixture/UserInfosFixture.php) not found
+Stack Trace:
+#0 /var/www/cake/lib/Cake/TestSuite/Fixture/CakeFixtureManager.php(77): CakeFixtureManager->_loadFixtures(Array)
+#1 /var/www/cake/lib/Cake/TestSuite/CakeTestRunner.php(57): CakeFixtureManager->fixturize(Object(UserInfosControllerTest))
+#2 /var/www/cake/lib/Cake/TestSuite/CakeTestSuiteCommand.php(98): CakeTestRunner->doRun(Object(PHPUnit_Framework_TestSuite), Array)
+#3 /var/www/cake/lib/Cake/TestSuite/CakeTestSuiteDispatcher.php(259): CakeTestSuiteCommand->run(Array)
+#4 /var/www/cake/lib/Cake/TestSuite/CakeTestSuiteDispatcher.php(96): CakeTestSuiteDispatcher->_runTestCase()
+#5 /var/www/cake/lib/Cake/TestSuite/CakeTestSuiteDispatcher.php(113): CakeTestSuiteDispatcher->dispatch()
+#6 /var/www/cake/app/webroot/test.php(108): CakeTestSuiteDispatcher::run()
+#7 {main}
+2015-09-04 08:18:52 Error: [MissingControllerException] Controller class UserInfosController could not be found.
+Exception Attributes: array (
+  'class' => 'UserInfosController',
+  'plugin' => NULL,
+)
+Request URL: /cake/
+Stack Trace:
+#0 /var/www/cake/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-04 08:19:28 Error: [MissingControllerException] Controller class UserInfosController could not be found.
+Exception Attributes: array (
+  'class' => 'UserInfosController',
+  'plugin' => NULL,
+)
+Request URL: /cake/
+Stack Trace:
+#0 /var/www/cake/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-04 08:20:45 Error: [MissingControllerException] Controller class UserInfoController could not be found.
+Exception Attributes: array (
+  'class' => 'UserInfoController',
+  'plugin' => NULL,
+)
+Request URL: /cake/
+Stack Trace:
+#0 /var/www/cake/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-04 08:21:34 Error: [MissingControllerException] Controller class UserInfoController could not be found.
+Exception Attributes: array (
+  'class' => 'UserInfoController',
+  'plugin' => NULL,
+)
+Request URL: /cake/
+Stack Trace:
+#0 /var/www/cake/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-04 08:22:08 Error: [MissingControllerException] Controller class UserInfosController could not be found.
+Exception Attributes: array (
+  'class' => 'UserInfosController',
+  'plugin' => NULL,
+)
+Request URL: /cake/user_infos/show
+Stack Trace:
+#0 /var/www/cake/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-04 08:24:39 Error: [UnexpectedValueException] Referenced fixture class UserInfos (Test/Fixture/UserInfosFixture.php) not found
+Stack Trace:
+#0 /var/www/cake/lib/Cake/TestSuite/Fixture/CakeFixtureManager.php(77): CakeFixtureManager->_loadFixtures(Array)
+#1 /var/www/cake/lib/Cake/TestSuite/CakeTestRunner.php(57): CakeFixtureManager->fixturize(Object(UserInfosControllerTest))
+#2 /var/www/cake/lib/Cake/TestSuite/CakeTestSuiteCommand.php(98): CakeTestRunner->doRun(Object(PHPUnit_Framework_TestSuite), Array)
+#3 /var/www/cake/lib/Cake/TestSuite/CakeTestSuiteDispatcher.php(259): CakeTestSuiteCommand->run(Array)
+#4 /var/www/cake/lib/Cake/TestSuite/CakeTestSuiteDispatcher.php(96): CakeTestSuiteDispatcher->_runTestCase()
+#5 /var/www/cake/lib/Cake/TestSuite/CakeTestSuiteDispatcher.php(113): CakeTestSuiteDispatcher->dispatch()
+#6 /var/www/cake/app/webroot/test.php(108): CakeTestSuiteDispatcher::run()
+#7 {main}
+2015-09-04 08:24:49 Error: [UnexpectedValueException] Referenced fixture class UserInfos (Test/Fixture/UserInfosFixture.php) not found
+Stack Trace:
+#0 /var/www/cake/lib/Cake/TestSuite/Fixture/CakeFixtureManager.php(77): CakeFixtureManager->_loadFixtures(Array)
+#1 /var/www/cake/lib/Cake/TestSuite/CakeTestRunner.php(57): CakeFixtureManager->fixturize(Object(UserInfosControllerTest))
+#2 /var/www/cake/lib/Cake/TestSuite/CakeTestSuiteCommand.php(98): CakeTestRunner->doRun(Object(PHPUnit_Framework_TestSuite), Array)
+#3 /var/www/cake/lib/Cake/TestSuite/CakeTestSuiteDispatcher.php(259): CakeTestSuiteCommand->run(Array)
+#4 /var/www/cake/lib/Cake/TestSuite/CakeTestSuiteDispatcher.php(96): CakeTestSuiteDispatcher->_runTestCase()
+#5 /var/www/cake/lib/Cake/TestSuite/CakeTestSuiteDispatcher.php(113): CakeTestSuiteDispatcher->dispatch()
+#6 /var/www/cake/app/webroot/test.php(108): CakeTestSuiteDispatcher::run()
+#7 {main}
+2015-09-04 08:25:44 Error: [UnexpectedValueException] Referenced fixture class UserInfos (Test/Fixture/UserInfosFixture.php) not found
+Stack Trace:
+#0 /var/www/cake/lib/Cake/TestSuite/Fixture/CakeFixtureManager.php(77): CakeFixtureManager->_loadFixtures(Array)
+#1 /var/www/cake/lib/Cake/TestSuite/CakeTestRunner.php(57): CakeFixtureManager->fixturize(Object(UserInfosControllerTest))
+#2 /var/www/cake/lib/Cake/TestSuite/CakeTestSuiteCommand.php(98): CakeTestRunner->doRun(Object(PHPUnit_Framework_TestSuite), Array)
+#3 /var/www/cake/lib/Cake/TestSuite/CakeTestSuiteDispatcher.php(259): CakeTestSuiteCommand->run(Array)
+#4 /var/www/cake/lib/Cake/TestSuite/CakeTestSuiteDispatcher.php(96): CakeTestSuiteDispatcher->_runTestCase()
+#5 /var/www/cake/lib/Cake/TestSuite/CakeTestSuiteDispatcher.php(113): CakeTestSuiteDispatcher->dispatch()
+#6 /var/www/cake/app/webroot/test.php(108): CakeTestSuiteDispatcher::run()
+#7 {main}
+2015-09-04 08:30:25 Error: Fatal Error (64): Cannot redeclare class UserInfoFixture in [/var/www/cake/app/Test/Fixture/UserInfosFixture.php, line 0]
+2015-09-04 08:30:25 Error: [FatalErrorException] Cannot redeclare class UserInfoFixture
+Stack Trace:
+#0 /var/www/cake/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', '/var/www/cake/a...', 0)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', '/var/www/cake/a...', 0, Array)
+#2 /var/www/cake/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', '/var/www/cake/a...', 0, Array)
+#3 /var/www/cake/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
